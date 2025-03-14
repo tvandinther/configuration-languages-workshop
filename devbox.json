@@ -1,16 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.7/.schema/devbox.schema.json",
   "packages": [
-    "cue@latest",
-    "kcl@latest"
+      "cue@0.12.0", 
+      "kcl@0.11.1"
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+        "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
       "test": [
-        "echo \"Error: no test specified\" && exit 1"
+          "echo \"Error: no test specified\" && exit 1"
       ]
     }
   }
