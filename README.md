@@ -44,7 +44,7 @@ data:
               description: Check the status and events on the node to diagnose the issue.
 kind: ConfigMap
 metadata:
-  name: prometheus-rules
+  name: prometheus-config
 ```
 
 You will find everything you need in the [cue](./cue/) and [kcl](./kcl/) directories. There will be instructions, as well as a handy syntax cheatsheet to give you the information you need to complete the task.
