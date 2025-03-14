@@ -61,4 +61,3 @@ _alertRules: node: rules: {
 		description: "The current value is *{{ $value }}*. There may be one or several pods using high amount of ephemeral local storage without appropriate requests or limits set."
 	}
 }
-
