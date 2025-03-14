@@ -25,7 +25,7 @@ To access the required tools in this workshop you will be using [Devbox](https:/
 
 We have some prometheus alert rules defined and we want to get these embedded into a Kubernetes ConfigMap ensuring that the correct schema is followed to avoid any issues when it comes time to apply the ConfigMap to the Kubernetes API Server, and to ensure that the Prometheus server will not reject the configuration.
 
-Your task is to pick either CUE or KCL and to write the code which takes the alert rules already defined in code, and generates a YAML output for a valid Prometheus configuration embedded in a valid Kubernetes ConfigMap.
+Your task is to pick either [CUE](https://cuelang.org/docs/) or [KCL](https://www.kcl-lang.io/docs/reference/lang/tour) and to write the code which takes the alert rules already defined in code, and generates a YAML output for a valid Prometheus configuration embedded in a valid Kubernetes ConfigMap.
 
 Below is an abridged example of the expected output:
 ```yaml
