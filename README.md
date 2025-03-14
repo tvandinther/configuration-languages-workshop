@@ -2,6 +2,8 @@
 
 In this workshop you will familiarise yourself with configuration languages and get hands-on with both CUE and KCL.
 
+> [Unlock your Infrastructure-as-Code with the power of Configuration Languages (devoteam.com)](https://www.devoteam.com/expert-view/infrastructure-as-code-with-configuration-languages/)
+
 ## Setup
 
 To access the required tools in this workshop you will be using [Devbox](https://www.jetify.com/devbox) to create ephemeral shells.
