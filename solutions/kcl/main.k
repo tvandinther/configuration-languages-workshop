@@ -5,11 +5,11 @@ import yaml
 _rules = p.PrometheusRules {
     groups = [p.PrometheusRulesGroupsItems0 {
         name = alertGroup.name
-        rules = [p.AlertingRule{
+        rules = [p.AlertingRule {
             alert = alertRule.name
             expr = alertRule.expr
             $for = alertRule.for
-            annotations = p.Annotations{
+            annotations = p.Annotations {
                 title = alertRule.title
                 summary = alertRule.summary
                 description = alertRule.description
