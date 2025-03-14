@@ -1,6 +1,6 @@
 package main
 
-_alerts: [Name=string]: #AlertGroup & {name: Name}
+_alertRules: [Name=string]: #AlertGroup & {name: Name}
 
 #AlertGroup: {
 	name: string
@@ -17,7 +17,7 @@ _alerts: [Name=string]: #AlertGroup & {name: Name}
 	description: string
 }
 
-_alerts: node: rules: {
+_alertRules: node: rules: {
 	"Unresponsive Node": {
 		expr:        "k8s_node_condition_ready == 0"
 		for:         "5m"
