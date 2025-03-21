@@ -1,4 +1,4 @@
-module: "github-workflow.example@v0"
+module: "github.example@v0"
 language: {
 	version: "v0.12.0"
 }
