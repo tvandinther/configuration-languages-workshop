@@ -1,9 +1,5 @@
-package github
+package main
 
-import (
-    "strings"
-)
+import "github.example/actions@v0"
 
-#Workflow: {
-    #normalJob: "runs-on": strings.HasPrefix("ubuntu-")
-}
+action: actions
