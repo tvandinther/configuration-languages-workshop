@@ -1,6 +1,6 @@
 package main
 
-import gh "github-workflow.example/main@v0"
+import gh "github-workflow.example/github@v0"
 
 gh.#Workflow & {
     name: "GitHub Actions Demo"
