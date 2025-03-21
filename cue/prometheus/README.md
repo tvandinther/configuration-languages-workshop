@@ -3,7 +3,7 @@
 Follow the steps below to get started on your solution.
 
 ## Steps
-1. Download the JSON Schema from [GitHub](https://raw.githubusercontent.com/SchemaStore/schemastore/refs/heads/master/src/schemas/json/prometheus.rules.json).
+1. Download the Prometheus rules JSON Schema from [GitHub](https://raw.githubusercontent.com/SchemaStore/schemastore/refs/heads/master/src/schemas/json/prometheus.rules.json).
 1. Move the JSON Schema into a new directory named `prometheus`.
 1. Run `cue import prometheus/prometheus.rules.json -p prometheus`
 1. In `main.cue`, `import "cue.example/prometheus"` and define your rules by starting with the `prometheus` definition.
