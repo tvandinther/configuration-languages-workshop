@@ -1,4 +1,4 @@
-package github
+package actions
 
 import (
 	"struct"
