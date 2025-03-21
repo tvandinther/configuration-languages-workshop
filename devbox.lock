@@ -1,9 +1,9 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "cue@latest": {
-      "last_modified": "2025-02-12T00:10:52Z",
-      "resolved": "github:NixOS/nixpkgs/83a2581c81ff5b06f7c1a4e7cc736a455dfcf7b4#cue",
+    "cue@0.12.0": {
+      "last_modified": "2025-02-23T09:42:26Z",
+      "resolved": "github:NixOS/nixpkgs/2d068ae5c6516b2d04562de50a58c682540de9bf#cue",
       "source": "devbox-search",
       "version": "0.12.0",
       "systems": {
@@ -21,37 +21,37 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/zzf9rm4phj70ilmif4bcyk4c6hvwmwv6-cue-0.12.0",
+              "path": "/nix/store/xzfwnb8pfk26zp2d6b4hmann9awfbvsb-cue-0.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/zzf9rm4phj70ilmif4bcyk4c6hvwmwv6-cue-0.12.0"
+          "store_path": "/nix/store/xzfwnb8pfk26zp2d6b4hmann9awfbvsb-cue-0.12.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/3lmq90ivssbiac800ii0wa502bdxls1l-cue-0.12.0",
+              "path": "/nix/store/3pf70s43qya9spm992ggyb3mk59kvchc-cue-0.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/3lmq90ivssbiac800ii0wa502bdxls1l-cue-0.12.0"
+          "store_path": "/nix/store/3pf70s43qya9spm992ggyb3mk59kvchc-cue-0.12.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/xkgcrpzmimrviq6pylnpzzj7aqny8117-cue-0.12.0",
+              "path": "/nix/store/a2rkwq4bv89abmvndlz2ly3r0w6gq170-cue-0.12.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/xkgcrpzmimrviq6pylnpzzj7aqny8117-cue-0.12.0"
+          "store_path": "/nix/store/a2rkwq4bv89abmvndlz2ly3r0w6gq170-cue-0.12.0"
         }
       }
     },
-    "kcl@latest": {
-      "last_modified": "2025-02-26T05:29:08Z",
-      "resolved": "github:NixOS/nixpkgs/3a05eebede89661660945da1f151959900903b6a#kcl",
+    "kcl@0.11.1": {
+      "last_modified": "2025-03-13T11:38:39Z",
+      "resolved": "github:NixOS/nixpkgs/573c650e8a14b2faa0041645ab18aed7e60f0c9a#kcl",
       "source": "devbox-search",
       "version": "0.11.1",
       "systems": {
@@ -59,41 +59,41 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/yvpr729rszm5z2kphf3d26qaczrdq8dh-kcl-0.11.1",
+              "path": "/nix/store/q4ckkxzfbsma31k465zw73kkk843yn4q-kcl-0.11.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/yvpr729rszm5z2kphf3d26qaczrdq8dh-kcl-0.11.1"
+          "store_path": "/nix/store/q4ckkxzfbsma31k465zw73kkk843yn4q-kcl-0.11.1"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/zrca6inpzafizd25znxvgl8v345gx47y-kcl-0.11.1",
+              "path": "/nix/store/k0nn9nplyxw59i51kxj12rjqrwhiv1i3-kcl-0.11.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/zrca6inpzafizd25znxvgl8v345gx47y-kcl-0.11.1"
+          "store_path": "/nix/store/k0nn9nplyxw59i51kxj12rjqrwhiv1i3-kcl-0.11.1"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6agqgnj99swi4shj1fgl91z7x0mwnzdp-kcl-0.11.1",
+              "path": "/nix/store/91fjw0rg46d9xdh050cbhk7lx9ky7fbh-kcl-0.11.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/6agqgnj99swi4shj1fgl91z7x0mwnzdp-kcl-0.11.1"
+          "store_path": "/nix/store/91fjw0rg46d9xdh050cbhk7lx9ky7fbh-kcl-0.11.1"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/bv0cbbwkshy6s0ndwhr9fy5b98x68d2z-kcl-0.11.1",
+              "path": "/nix/store/xvnwpz439gjxdjl8gpdc26zqybca20jc-kcl-0.11.1",
               "default": true
             }
           ],
-          "store_path": "/nix/store/bv0cbbwkshy6s0ndwhr9fy5b98x68d2z-kcl-0.11.1"
+          "store_path": "/nix/store/xvnwpz439gjxdjl8gpdc26zqybca20jc-kcl-0.11.1"
         }
       }
     }
