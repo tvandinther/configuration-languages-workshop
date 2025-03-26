@@ -8,6 +8,6 @@
     }
   },
   "env": {
-    "CUE_REGISTRY": "localhost:5001/cuemodules"
+    "CUE_REGISTRY": "localhost:5001"
   }
 }
