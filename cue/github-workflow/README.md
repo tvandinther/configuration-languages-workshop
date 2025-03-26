@@ -1,14 +1,18 @@
 
-1. In the `actions` directory:
+First we will define a module which contains the GitHub Workflow schema as well as any policy which we want to enforce. In the `actions` directory:
 1. Download the GitHub Workflow JSON Schema from [GitHub](https://raw.githubusercontent.com/SchemaStore/schemastore/refs/heads/master/src/schemas/json/github-workflow.json).
 1. Move the JSON Schema into a new directory named `github`.
 1. Run `cue import github/github-workflow.json -p github -l '#Workflow:'`
 1. In `main.cue`, `import "github-workflow.example@v0/github"` and lets begin adding some contraints.
-1. `cue mod publish v0.0.1`
+1. Create a file `policy.cue` and define a constraint for the `job.runs-on` field to only allow values starting with `"ubuntu-"`.
+1. Add any other constraints for policy you want to enforce.
+1. Publish your module to the registry with `cue mod publish v0.0.1`.
 
-1. In the `workflow` directory:
+Now we will use the published module to author a GitHub Workflow file. In the `workflow` directory:
 1. Get the module from the registry using `cue mod get github.example@v0`.
 1. In `main.cue`, `import gh "github.example/actions@v0"` and begin defining your workflow. Use the `#Workflow` definition from the imported package as your starting point.
+1. Try set the `runs-on` field in one of your jobs to `"macos-latest"` and run `cue vet` to see the output fail. Change this back to a string prefixed with `"ubuntu-"` to remove this error.
+1. Finally, run `cue export --out yaml` to view the generated GitHub Workflow markup.
 
 ## Troubleshooting
 
