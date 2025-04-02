@@ -23,7 +23,9 @@ To access the required tools in this workshop you will be using [Devbox](https:/
 1. Run `devbox shell` to open a new shell with the required binaries available.
 1. If using VS Code: install the recommended extensions.
 
-## Task
+## Tasks
+
+### 1. Author Prometheus Rules
 
 We have some prometheus alert rules defined and we want to get these embedded into a Kubernetes ConfigMap ensuring that the correct schema is followed to avoid any issues when it comes time to apply the ConfigMap to the Kubernetes API Server, and to ensure that the Prometheus server will not reject the configuration.
 
@@ -49,6 +51,12 @@ metadata:
   name: prometheus-config
 ```
 
-You will find everything you need in the [cue](./cue/) and [kcl](./kcl/) directories. There will be instructions, as well as a handy syntax cheatsheet to give you the information you need to complete the task.
+You will find everything you need in the [cue](./cue/prometheus/) and [kcl](./kcl/prometheus/) directories. There will be instructions, as well as a handy syntax cheatsheet to give you the information you need to complete the task.
 
 Once you complete the task, try it again with the other langauge. See which one you prefer!
+
+### 2. Publish a GitHub Workflow Module
+
+For this task you will play the role of an engineer managing an organisation's GitHub and get hand-on with authoring and publishing modules. We will import a schema for a GitHub Actions workflow, add some custom policy, and publish it as a reusable module. We will then play the role of the user and create a simple GitHub Actions workflow using the published module.
+
+You will find everything you need in the [cue](./cue/github-workflow/) directory.
